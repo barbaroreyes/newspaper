@@ -8,7 +8,12 @@ header{
     justify-content:center;
     align-items: center;
     flex-direction:column ;
-    border: 1px solid;  
+     
+    
+}
+header>hr{
+    width: 95%;
+   border: 3px solid  rgb(27, 92, 158);;
 }
 header>h1{
     color:rgb(27, 92, 158);
