@@ -1,0 +1,32 @@
+body{
+    border: 1px solid;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column ;
+    border: 1px solid;  
+}
+header>h1{
+    color:rgb(27, 92, 158);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans
+  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.3em;
+  margin:0;
+  margin: 10px;
+  width: 90%;
+}
+header>p{
+    color:rgb(27, 92, 158);
+    margin-top: 0;
+    margin-left: 100px ;
+}
+
+aside{
+    border: 1px solid ;
+    width: 20%;
+    margin-left: 250px;
+  
+}
