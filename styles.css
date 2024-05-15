@@ -1,5 +1,6 @@
 body{
     border: 1px solid;
+    position: relative;
 }
 
 header{
@@ -27,6 +28,22 @@ header>p{
 aside{
     border: 1px solid ;
     width: 20%;
-    margin-left: 250px;
+    margin-left: 320px;
+    position: absolute;
+    top: 270px;
+    
   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 39vh;
+}
+
+footer> section{
+    border: 1px solid ;
+    width: 45%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
