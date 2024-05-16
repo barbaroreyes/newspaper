@@ -49,14 +49,17 @@ aside{
   
 }
 aside> section{
+    
    height: 21.8vh;
     margin:  2px;
-    border: 1px solid;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   
 }
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -71,4 +74,9 @@ footer> section{
     justify-content:center;
     align-items: center;
     height: 50%;
+
+}
+
+footer>section>p{
+    width: 10%;
 }
