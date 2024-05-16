@@ -29,21 +29,33 @@ header>p{
     margin-top: 0;
     margin-left: 100px ;
 }
-
+main>h1{
+    width: 55%;
+    margin: 4px;
+}
+main>ul{
+width: 45%;
+margin: 4px;
+}
 aside{
     border: 1px solid ;
     width: 39%;
     margin-left: 290px;
     position: absolute;
-    top: 290px;
-   height: 58.6vh;
+    top: 112px;
+   height: 89.3vh;
    text-align: center;
+   padding: 1px;
   
 }
 aside> section{
-    height:  23.3%;
+   height: 21.8vh;
     margin:  2px;
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 footer{
     display: flex;
